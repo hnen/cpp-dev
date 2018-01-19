@@ -1,6 +1,6 @@
 
 
-link_directories(/Users/user/dev/cgettest/app/cget/lib)
+link_directories(/Users/user/dev/cpp-dev/cget/lib)
 
 add_executable (app src/test.cpp)
 #link_directories(${PROJECT_SOURCE_DIR}/cget/lib)
