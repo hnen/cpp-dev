@@ -3,3 +3,5 @@ project (Test)
 
 add_subdirectory(app)
 
+install()
+
