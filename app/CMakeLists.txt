@@ -1,10 +1,7 @@
 cmake_minimum_required (VERSION 2.8.11)
 
-if(MSVC)
-    set(LIBS ${LIBS} ${CMAKE_PREFIX_PATH}/lib/glfw3.lib)
-else()
-    set(LIBS ${LIBS} ${CMAKE_PREFIX_PATH}/lib/glfw3)
-endif()
+link_directories(${CMAKE_PREFIX_PATH}/lib)
+set(LIBS ${LIBS} glfw3)
 
 add_executable (app src/test.cpp)
 target_link_libraries (app LINK_PUBLIC ${LIBS})
