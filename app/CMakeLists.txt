@@ -1,5 +1,7 @@
 cmake_minimum_required (VERSION 2.8.11)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
+
 if(NOT CGET_PREFIX)
     # This is needed if not building with 'cget build'
     include(${CMAKE_SOURCE_DIR}/cget/cget/cget.cmake)
