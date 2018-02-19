@@ -1,5 +1,5 @@
 # cpp-dev
-Working on a C++ framework using CMake/CGet for build automation
+Experimenting on a C++ framework using CMake/CGet for dependency management and build automation
 
 ## Build
 
